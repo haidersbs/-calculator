@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Master template 5</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--iconfont-->
+  <link rel="stylesheet" href="css/icofont.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <section class="my-calculator">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-3 ">
+          <div class="cal-wap d-flex justify-content-center mt-3 ">
+            <div class="formstyle">
+              <form action="#" name="forms" class="my-all-btn ">
+                <div class="up-display">
+                  <p>Developed By Sumon</p>
+                  <input type="text" name="answer">
+                </div>
+                <div class="down-btn">
+
+                  <div class="cal-one d-flex justify-content-between">
+                    <input class="clrbtn" type="button" value="AC" onclick="forms.answer.value = '' ">
+                    <input class="clrbtn" type="button" value="(" onclick="forms.answer.value += '(' ">
+                    <input class="clrbtn" type="button" value=" / " onclick="forms.answer.value += '/' ">
+                    <input class="clrbtn" type="button" value=" x " onclick="forms.answer.value += '*' ">
+                  </div>
+
+                  <div class="cal-one d-flex justify-content-between">
+                    <input type="button" value=" 7 " onclick="forms.answer.value += '7' ">
+                    <input type="button" value=" 8 " onclick="forms.answer.value += '8' ">
+                    <input type="button" value=" 9 " onclick="forms.answer.value += '9' ">
+                    <input class="clrbtn" type="button" value=" + " onclick="forms.answer.value += '+' ">
+                  </div>
+
+                  <div class="cal-one d-flex justify-content-between">
+                    <input type="button" value=" 4 " onclick="forms.answer.value += '4' ">
+                    <input type="button" value=" 5 " onclick="forms.answer.value += '5' ">
+                    <input type="button" value=" 6 " onclick="forms.answer.value += '6' ">
+                    <input class="clrbtn" type="button" value=" - " onclick="forms.answer.value += '-' ">
+                  </div>
+
+                  <div class="cal-one d-flex justify-content-between">
+                    <input type="button" value=" 1 " onclick="forms.answer.value += '1' ">
+                    <input type="button" value=" 2 " onclick="forms.answer.value += '2' ">
+                    <input type="button" value=" 3 " onclick="forms.answer.value += '3' ">
+                    <input class="clrbtn" type="button" value=" ) " onclick="forms.answer.value += ')' ">
+                  </div>
+
+
+                  <div class="cal-one d-flex justify-content-between">
+                    <input type="button" value=" D " onclick="forms.answer.value += ' Develop By Sumon' ">
+                    <input type="button" value=" 0 " onclick="forms.answer.value += '0' ">
+                    <input type="button" value=" . " onclick="forms.answer.value += '.' ">
+                    <input class="clrbtn" type="button" value=" = "
+                      onclick="forms.answer.value = eval (forms.answer.value) ">
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+  </section>
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
